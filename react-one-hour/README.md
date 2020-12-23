@@ -1,19 +1,3 @@
-module.exports = {
-env: {
-browser: true,
-es6: true,
-node: true,
-},
-extends: ['eslint:recommended', 'airbnb', 'plugin:prettier/recommended'],
-rules: {
-'react/jsx-filename-extension': ['error',
-{
-'extension': [".js",".jsx"]
-}
-]
-}
-};
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
